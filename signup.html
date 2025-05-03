@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <title>Registration</title>
+  </head>
+  <body>
+
+    <div class="fluid-container">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color:#3e2723">
+    
+      <a class="navbar-brand" href="index.html">
+      <img src="Image\Logo.png" width="140" height="80" alt="logo">
+    </a>
+     
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
+    
+    
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.htm">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+  
+  <div class="fluid-container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 style="margin-top:8%; background-color:#D6DBDF; color:black; padding:60px; text-align:center">
+          Registration
+        </h1>
+      </div>
+    </div>
+  </div>
+    <div class="container mt-5 pt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                  <label for="username">User Name</label>
+                  <input type="text" class="form-control" id="username" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                  <label for="idnumber">ID Number</label>
+                  <input type="number" class="form-control" id="idnumber" placeholder="Enter your ID number" required>
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+                </div>
+                <div>
+                    <label for="category">Register As</label>
+                    <select>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="college">College</option>
+                    </select>
+                </div>
+                <div>
+                  <p align="center">Already Registered? <a href="Sign-in.htm">Sign in</a></p>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
